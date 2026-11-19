@@ -1,6 +1,6 @@
 # satpose
 
-Estimating a satellite's 3D pose from a single camera image with OpenCV.
+Estimating a satellite's 3D pose from a single camera image w. OpenCV
 
 ![demo](demo.png)
 
@@ -20,7 +20,7 @@ Estimating a satellite's 3D pose from a single camera image with OpenCV.
 | Mean rotation error | 0.37° |
 | Worst rotation error | 1.45° |
 
-Per-image numbers are in `results.csv`.
+Per-image numbers r in `results.csv`.
 
 ## Run it
 
@@ -32,6 +32,6 @@ python estimate.py
 
 ## Limitations / next steps
 
-- Markers are always drawn, even when they'd be hidden behind the body in real life.
-- Real satellites don't have colored markers, so the next step is detecting natural features (corners, edges) or training a keypoint model.
-- Add harsher conditions: lens distortion, glare, motion blur, partial occlusion.
+- Markers are always drawn, even when they woudlbe hidden behind the body in real life.
+- Real satellites don't have colored markers, so the next step is detecting natural features (corners, edges) or training a keypoint model. :(
+- Add harsher conditions: lens distortion, glare, motion blur, partial occlusion, camera warping, etc etc etc.
