@@ -22,13 +22,14 @@ Estimating a satellite's 3D pose from a single camera image w. OpenCV
 
 Per-image numbers r in `results.csv`.
 
-## Run it
+## Run it!!!!!!!!!!!!
 
 ```
 pip install -r requirements.txt
 python generate.py
 python estimate.py
 ```
+(generate makes the images)
 
 ## Limitations / next steps
 
